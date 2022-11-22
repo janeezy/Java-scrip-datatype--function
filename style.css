@@ -1,0 +1,29 @@
+* {
+  background-color: rgb(31, 42, 38);
+}
+
+.gridcontainer {
+  align-items: center;
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  font-weight: 500;
+  margin: 40px;
+  padding: 10px;
+}
+
+#button_A {
+  color: azure;
+  background: darkgoldenrod;
+  padding: 30px;
+  margin: 80px;
+  display: grid;
+  flex-direction: column-reverse;
+  border: 10px;
+}
+
+#heading_A {
+  color: white;
+  font-size: x-large;
+  font-family: monospace;
+}
